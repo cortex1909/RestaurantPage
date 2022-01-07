@@ -1,23 +1,23 @@
-import homePage from "./home"
-import menuPage from "./menu"
-import contactPage from "./contact"
+import homePage from './home'
+import menuPage from './menu'
+import contactPage from './contact'
 
 export let switchHome = () => {
-    emptyContent()
-    homePage()
+	emptyContent()
+	homePage()
 }
 
 export let switchMenu = () => {
-    emptyContent()
-    menuPage()
+	emptyContent()
+	menuPage()
 }
 
 export let switchContact = () => {
-    emptyContent()
-    contactPage()    
+	emptyContent()
+	contactPage()
 }
 
 let emptyContent = () => {
-    const content = document.getElementById('content')
-    content.innerHTML = ''
+	const content = document.getElementById('content')
+	content.innerHTML = ''
 }
