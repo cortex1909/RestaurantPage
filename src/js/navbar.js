@@ -2,22 +2,22 @@ import homePage from './home'
 import menuPage from './menu'
 import contactPage from './contact'
 
-export let switchHome = () => {
-	emptyContent()
-	homePage()
+const emptyContent = () => {
+  const content = document.getElementById('content')
+  content.innerHTML = ''
 }
 
-export let switchMenu = () => {
-	emptyContent()
-	menuPage()
+export const switchHome = () => {
+  emptyContent()
+  homePage()
 }
 
-export let switchContact = () => {
-	emptyContent()
-	contactPage()
+export const switchMenu = () => {
+  emptyContent()
+  menuPage()
 }
 
-let emptyContent = () => {
-	const content = document.getElementById('content')
-	content.innerHTML = ''
+export const switchContact = () => {
+  emptyContent()
+  contactPage()
 }
