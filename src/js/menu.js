@@ -1,3 +1,12 @@
+import Berries from '../img/berries.png'
+import Lasagne from '../img/lasagne.png'
+import Pasta from '../img/pasta.png'
+import Pie from '../img/pie.png'
+import Pizza from '../img/pizza.png'
+import Shells from '../img/shells.png'
+
+
+
 let titleContainer = () => {
     const element = document.createElement('div')
     element.classList.add('titleContainer')
@@ -62,37 +71,37 @@ let menuPage = () => {
 const food = [
     {
         name: 'Pizza',
-        img: '../src/img/pizza.png',
+        img: Pizza,
         info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, aliquid.',
         price: '10,99 &dollar;'
     },
     {
         name: 'Lasagne',
-        img: '../src/img/2.png',
+        img: Lasagne,
         info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, aliquid.',
         price: '19,99 &dollar;'
     },
     {
         name: 'Pasta',
-        img: '../src/img/3.png',
+        img: Pasta,
         info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, aliquid.',
         price: '15,99 &dollar;'
     },
     {
         name: 'Berries',
-        img: '../src/img/4.png',
+        img: Berries,
         info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, aliquid.',
         price: '9,99 &dollar;'
     },
     {
         name: 'Shells',
-        img: '../src/img/5.png',
+        img: Shells,
         info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, aliquid.',
         price: '39,99 &dollar;'
     },
     {
         name: 'Pie',
-        img: '../src/img/6.png',
+        img: Pie,
         info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, aliquid.',
         price: '1,99 &dollar;'
     },

@@ -1,6 +1,12 @@
 import './css/style.css'
+import Logo from './img/logo.png'
 import { switchHome, switchMenu, switchContact } from './js/navbar'
 import homePage from './js/home'
+
+let placeLogo = () => {
+    const logo = document.getElementById('Logo')
+    logo.src = Logo
+}
 
 let navbarListener = () => {
     const homeButton = document.getElementById('home')
@@ -13,6 +19,7 @@ let navbarListener = () => {
 }
 
 let initialization = () => {
+    placeLogo()
     navbarListener()
     homePage()
 }
