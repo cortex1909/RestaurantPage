@@ -1,6 +1,6 @@
-import './style.css'
-import { switchHome, switchMenu, switchContact } from './navbar'
-import homePage from './home'
+import './css/style.css'
+import { switchHome, switchMenu, switchContact } from './js/navbar'
+import homePage from './js/home'
 
 let navbarListener = () => {
     const homeButton = document.getElementById('home')
